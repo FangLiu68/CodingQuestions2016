@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		976B33E81E46925F00D9B505 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 976B33E71E46925F00D9B505 /* main.cpp */; };
+		976B33F41E46941200D9B505 /* Split Binary Search Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 976B33F31E46941200D9B505 /* Split Binary Search Tree.cpp */; };
+		976B33F61E46948000D9B505 /* LRU Cache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 976B33F51E46948000D9B505 /* LRU Cache.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		976B33E41E46925F00D9B505 /* CodingQuestions2016 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingQuestions2016; sourceTree = BUILT_PRODUCTS_DIR; };
 		976B33E71E46925F00D9B505 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		976B33F31E46941200D9B505 /* Split Binary Search Tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Split Binary Search Tree.cpp"; sourceTree = "<group>"; };
+		976B33F51E46948000D9B505 /* LRU Cache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "LRU Cache.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,51 @@
 		976B33E61E46925F00D9B505 /* CodingQuestions2016 */ = {
 			isa = PBXGroup;
 			children = (
+				976B33F11E4693B200D9B505 /* Tree */,
+				976B33F01E4693AB00D9B505 /* Design */,
+				976B33EF1E4693A400D9B505 /* Linked List */,
+				976B33EE1E46938E00D9B505 /* Binary Search */,
 				976B33E71E46925F00D9B505 /* main.cpp */,
 			);
 			path = CodingQuestions2016;
+			sourceTree = "<group>";
+		};
+		976B33EE1E46938E00D9B505 /* Binary Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Binary Search";
+			sourceTree = "<group>";
+		};
+		976B33EF1E4693A400D9B505 /* Linked List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Linked List";
+			sourceTree = "<group>";
+		};
+		976B33F01E4693AB00D9B505 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				976B33F51E46948000D9B505 /* LRU Cache.cpp */,
+			);
+			name = Design;
+			sourceTree = "<group>";
+		};
+		976B33F11E4693B200D9B505 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				976B33F21E4693FB00D9B505 /* BST */,
+			);
+			name = Tree;
+			sourceTree = "<group>";
+		};
+		976B33F21E4693FB00D9B505 /* BST */ = {
+			isa = PBXGroup;
+			children = (
+				976B33F31E46941200D9B505 /* Split Binary Search Tree.cpp */,
+			);
+			name = BST;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +165,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				976B33F61E46948000D9B505 /* LRU Cache.cpp in Sources */,
+				976B33F41E46941200D9B505 /* Split Binary Search Tree.cpp in Sources */,
 				976B33E81E46925F00D9B505 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
